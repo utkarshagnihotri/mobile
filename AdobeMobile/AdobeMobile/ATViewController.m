@@ -26,20 +26,20 @@
 
 - (void)XTActivity {
 
-/*
+
      // Here 'a1-L750-at' is the name of the location. This will show up in the content
      // location dropdown in the UI.
 
     // Replace a1 with your unique user number.
 
-     ADBTargetLocationRequest* locationRequest = [ADBMobile targetCreateRequestWithName:@"a1-L750-at"
+     ADBTargetLocationRequest* locationRequest = [ADBMobile targetCreateRequestWithName:@"afcu-demo-ab"
                                                                         defaultContent:@"Hello there!"
                                                                             parameters:nil];
     
     [ADBMobile targetLoadRequest:locationRequest callback:^(NSString *content){
         [self performSelectorOnMainThread:@selector(ATActivityChanges:) withObject:content waitUntilDone:YES];
     }];
-*/
+
 
 }
 -(void)ATActivityChanges: (NSString*) content {

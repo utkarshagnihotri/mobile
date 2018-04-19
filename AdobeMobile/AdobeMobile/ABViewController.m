@@ -25,12 +25,12 @@
 - (void)ABActivity
 {
 
-/*
+
     // Here 'a1-L750-ab' is the name of the location. This will show up in the content
     // location dropdown in the Target UI.
     // Replace a1 with your unique user number.
     
-    ADBTargetLocationRequest* locationRequest = [ADBMobile targetCreateRequestWithName:@"a1-L750-ab"
+    ADBTargetLocationRequest* locationRequest = [ADBMobile targetCreateRequestWithName:@"afcu-demo-ab"
                                                                         defaultContent:@"This is a button - CHANGE MY TEXT"
                                                                             parameters:nil];
     
@@ -44,7 +44,7 @@
         
     }];
 
-*/
+
     
 }
  
